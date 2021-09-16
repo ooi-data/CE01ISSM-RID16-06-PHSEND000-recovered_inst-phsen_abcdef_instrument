@@ -1,8 +1,9 @@
 assigness: []
 harvest_options:
   path: s3://ooi-data
-  refresh: false
+  refresh: true
   test: false
+  goldcopy: true
 instrument: CE01ISSM-RID16-06-PHSEND000
 stream:
   method: recovered_inst
